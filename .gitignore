@@ -1,0 +1,17 @@
+node_modules/
+.shadow-cljs/
+hello/
+product-scraper.js
+externs/
+resources/
+storage/
+apify_storage/
+.DS_Store.calva
+
+.calva
+
+.DS_Store
+
+storages
+
+scraper.js

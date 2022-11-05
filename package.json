@@ -1,0 +1,21 @@
+{
+    "devDependencies": {
+        "serverless-python-requirements": "^5.4.0",
+        "shadow-cljs": "^2.0.51"
+    },
+    "scripts": {
+        "release": "npx shadow-cljs release app",
+        "watch": "npx shadow-cljs watch app",
+        "dev": "rm -rf apify_storage && node scraper.js"
+    },
+    "dependencies": {
+        "apify": "2.0.6",
+        "aws-sdk": "^2.1022.0",
+        "boto": "0.0.1",
+        "boto3": "0.0.1",
+        "cheerio": "1.0.0-rc.3",
+        "express": "4.16.2",
+        "puppeteer": "5.5.0",
+        "superagent": "6.1.0"
+    }
+}
